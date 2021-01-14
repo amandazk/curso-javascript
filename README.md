@@ -14,5 +14,8 @@ Curso "JavaScript Completo ES6" da plataforma Origamid.
  - Possui diversos projetos
  - var, const, let, class, async, await, fetch, promise e mais
 
+## Material do curso
+ - [Parte 1][1]
 
-  
+
+[1]: https://github.com/amandazk/curso-javascript/tree/master/parte-1
