@@ -13,7 +13,7 @@ if (minhaIdade > idadeIrma) {
 
 // Qual o valor retornado na seguinte expressão?
 var expressao = (5 - 2) && (5 - ' ') && (5 -2);
-// false
+// 3
 
 // Verifique se as seguintes variáveis são Truthy ou Falsy
 var nome = 'Amanda'; // Truthy
@@ -38,7 +38,7 @@ if(('Gato' === 'gato') && (5 > 2)) {
 } else {
     console.log('Falso');
 }
-// Verdadeiro
+// Falso
 
 // O que irá aparecer no console?
 if(('Gato' === 'gato') || (5 > 2)) {
