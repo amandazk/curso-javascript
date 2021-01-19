@@ -10,7 +10,7 @@ areaQuadrado(4) // 16
 areaQuadrado(5) // 25
 areaQuadrado(2) // 4
 ```
-< \br>
+<\ br>
 
 ### Parâmetros e Argumentos
  - Ao criar uma função, você pode definir parâmetros
