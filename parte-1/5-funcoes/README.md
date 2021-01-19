@@ -10,7 +10,7 @@ areaQuadrado(4) // 16
 areaQuadrado(5) // 25
 areaQuadrado(2) // 4
 ```
-<\ br>
+<br />
 
 ### Parâmetros e Argumentos
  - Ao criar uma função, você pode definir parâmetros
@@ -41,7 +41,7 @@ corFavorita(); // retorna 'Você não gosta de nada'
 ```
  - Se apenas definirmos a função com o function e não executarmos a mesma, nada
 que estiver dentro dela irá acontecer
-<\ br>
+<br />
 
 ### Argumentos podem ser funções
  - Chamadas de Callback, geralmente são funções que ocorrem após algum evento
@@ -63,7 +63,7 @@ function mostraConsole() {
 
 addEventListener('click', mostraConsole);
 ```
-<\ br>
+<br />
 
 ### Pode ou não retornar um valor
  - Quando não definimos o return, ela irá retornar undefined
@@ -78,7 +78,7 @@ function imc(peso, altura) {
 imc(80, 1.80); // retorna o imc
 console.log(imc(80, 1.80)); // retorna o imc e undefined
 ```
-<\ br>
+<br />
 
 ### Valores retornados
  - Uma função pode retornar qualquer tipo de dado e até outras funções
@@ -95,7 +95,7 @@ function terceiraIdade(idade) {
 ```
  - Retornar diferentes tipos de dados, como feito no código acima, não é uma boa prática
  - Quando o código faz um return, ele ignora tudo o que vem depois
-<\ br>
+<br />
 
 ### Escopo léxico
  - Funções conseguem acessar variáveis que foram criadas no contexto pai
@@ -119,7 +119,7 @@ function dados() {
 dados(); // retorna 'Amanda, 24, Santa Catarina, Policia'
 outrosDados(); // retorna um erro
 ```
-<\ br>
+<br />
 
 ### Hoisting
  - Antes de executar uma função, o javascript 'move' todas as funções declaradas para a memória
