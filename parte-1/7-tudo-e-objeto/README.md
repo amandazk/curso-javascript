@@ -1,6 +1,5 @@
 ## Tudo é objeto
  - Strings, números, boolean, objetos e mais, possuem propriedades e métodos. Por isso são objetos
-<br />
 
 ### Strings
 ```javascript
@@ -12,7 +11,6 @@ nome.replace('da', 'fa'); // 'Amanfa'
 nome; // 'Amanda'
 ```
  - Uma string herda propriedades e métodos do construtor String()
-<br />
 
 ### Números
 ```javascript
@@ -22,7 +20,6 @@ altura.toString(); // '1.8'
 altura.toFixed(); // '2'
 ```
  - Por um breve momento, o número é envolvido em um Objeto (coerção), tendo acesso assim as suas propriedades e métodos
-<br />
 
 ### Funções
 ```javascript
@@ -37,7 +34,6 @@ areaQuadrado.toString();
 
 areaQuadrado.length; // total de argumentos que a função possui = 1
 ```
-<br />
 
 ### Elementos do DOM
 ```html
