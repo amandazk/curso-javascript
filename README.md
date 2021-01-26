@@ -17,8 +17,13 @@ Curso "JavaScript Completo ES6" da plataforma Origamid.
 ## Material do curso
  - [Parte 1][1]
  - [Parte 2][2]
+ - [PROJETO][3]
+
+ 
 
 
 [1]: https://github.com/amandazk/curso-javascript/tree/master/parte-1
 [2]: https://github.com/amandazk/curso-javascript/tree/master/parte-2
+[3]: https://github.com/amandazk/curso-javascript/tree/master/parte-2/projeto
+
 
