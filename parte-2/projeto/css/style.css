@@ -92,7 +92,7 @@ body {
 
 .animais-lista {
   height: 370px;
-  overflow-y: scroll;
+  overflow-y: scroll; /* o que passar do limite no eixo y */
   grid-column: 2;
 }
 
