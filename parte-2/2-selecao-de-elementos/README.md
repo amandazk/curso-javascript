@@ -54,4 +54,31 @@ console.log(gridSection[2]);
 ```
  - Diferente do ***getElementByClassName***, a lista aqui é estática
 
+### HTMLCollection vs NodeList
+ - A diferença está nos métodos e propriedades de ambas
+ - Além disso, a NodeList retornada com querySelectorAll é estática
+```javascript
+const titulo = document.querySelector('.titulo');
+const gridSectionHTML = document.getElementByClassName('grid-selection');
+const gridSectionNode = document.SelectorAll('.grid-selection');
+
+titulo.classList.add('grid-section'); // adicionando uma classe
+
+console.log(gridSectionHTML); // 4 itens
+console.log(gridSectionNode); // 3 itens
+```
+
+### Array-Like
+ - HTMLCollection e NodeList são array-like -> parecem uma array mas
+não são
+ - O método de Array ***forEach()*** por exemplo, existe apenas em NodeList
+```javascript
+const gridSection = document.querySelectorAll('.grid-section');
+
+gridSection.forEach(function(gridItem, index,array) {
+    gridItem.classList.add('azul');
+    console.log(index); // index do item no array
+    console.log(array); // o array completo
+});
+```
 
